@@ -1,0 +1,15 @@
+[programs.localnet]
+myepicproject = "8zZ3ZfM4hWSn39Rgv2YrC4KvN2XX554qm7SVSi7fdXFU"
+
+[programs.devnet]
+myepicproject = "8zZ3ZfM4hWSn39Rgv2YrC4KvN2XX554qm7SVSi7fdXFU"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/jonathanwerner/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
